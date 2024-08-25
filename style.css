@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color {
+    font-size: 2rem;
+    text-align: center;
+    color:rgba(22, 22, 197, 0.568);
+}
+
+.display {
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+
+}
+
+input {
+    width: 30vw;
+    height: 5vh;
+   
+    
+   
+}
+input:hover {
+    border:.2rem solid blue;
+}
+.form-group p{
+    margin-top: 1rem; 
+}
+
+#book-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#form-submit input {
+    background-color: rgba(16, 75, 185, 0.753);
+    color: white;
+    font-size: 1vw;
+   margin-top: 2rem;
+   padding: .5vw 0 .5vw 0;
+}
+

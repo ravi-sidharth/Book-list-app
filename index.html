@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class=" display">
+        <h1 ><i class="fas fa-book-open color"></i>My <span class="color">Book</span>List</h1>
+    </div>
+      <form id="book-form">
+        <div>
+        <div class="form-group">
+           <p> <label for="title">Title</label></p>
+            <p><input class="form-control" type="text" name="Title" id="title"></p>
+        </div>
+
+        <div class="form-group">
+           <p> <label  for="title">Author</label> </p>
+           <p> <input class="form-control" type="text" name="Author" id="author" ></p>
+        </div>
+
+        <div class="form-group">
+            <p><label  for="isbn">ISBN#</label> </p>
+            <p><input class="form-control" type="text" name="ISBN" id="isbn"></p>
+        </div>
+     <div class="form-group"  id="form-submit"  >
+         <p ><input id="btn-submit" type="submit" value="add Book"></p>
+       
+    </div>
+    </div>
+    </form>
+    
+
+
+</body>
+</html>
